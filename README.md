@@ -1,64 +1,27 @@
-# Assignment 1: Python - Data Structures
+# Assignment 2: Python - Control Flow (Conditionals & Loops)
 
 ## Problem Statement
-You are a Junior Python Developer at a small e-commerce store. The store wants a simple inventory utility to manage products and categories, run small queries, and export a snapshot of selected products. Your code should demonstrate correct use of Python data structures: lists, tuples, sets, and dictionaries.
 
-## Project Description
-This project focuses on building a basic inventory management system for an online store. The application should allow the user to:
+You are a Junior Python Developer working on simple order processing utilities for a small e-commerce store. The focus for this assignment is control flow: if/elif/else statements and looping constructs (for, while) including break and continue.
 
-- Store product information such as name, category, price, stock quantity, and rating
-- Group items by category to support efficient browsing and organization
-- Search and filter products using small queries
-- Select a subset of products and generate an export snapshot
-- Demonstrate the practical use of Python built-in data structures
+## Overview
 
-## Project Specification
+This folder contains the project work for Assignment 2, focused on implementing and practicing Python control flow logic for real-world order processing scenarios.
 
-### Core Functional Requirements
-1. Product Management
-   - Maintain a collection of products in a structured format
-   - Each product should include relevant attributes like ID, name, category, price, and stock
-   - Product records should be easy to add, update, and retrieve
+## Objectives
 
-2. Category Management
-   - Organize products into categories such as Electronics, Clothing, Home, etc.
-   - Allow quick lookup of all products under a specific category
+- Use conditional statements to make decisions based on order status and values
+- Apply loops to process multiple orders or items efficiently
+- Use `break` and `continue` to control loop execution
+- Build clean and readable Python logic for everyday business tasks
 
-3. Query Operations
-   - Run simple queries such as:
-     - Find all products in a given category
-     - Search for products by name or keyword
-     - Check items with low stock
-     - List products within a price range
+## Expected Skills
 
-4. Snapshot Export
-   - Select one or more products and export a snapshot of the chosen items
-   - Exported data should be readable and structured for quick review
+- Python conditionals
+- `for` and `while` loops
+- Flow control using `break` and `continue`
+- Basic logic building for e-commerce utilities
 
-### Data Structure Requirements
-The solution must demonstrate the correct use of these Python data structures:
+## Notes
 
-- Lists: for ordered collections of products or category items
-- Tuples: for fixed or read-only product metadata or records
-- Sets: for unique categories, selected product IDs, or filtered result tracking
-- Dictionaries: for key-value product records and category mappings
-
-### Expected Outcome
-The final program should act as a simple inventory utility that:
-
-- stores products efficiently,
-- supports category-based organization,
-- handles small queries effectively, and
-- exports a snapshot of selected products in a clear format.
-
-## Implementation Guidelines
-- Use dictionaries to represent each product record
-- Use lists to maintain ordered collections of products
-- Use tuples where immutable product-related data is appropriate
-- Use sets to manage unique values and membership checks
-- Keep the implementation simple, readable, and beginner-friendly
-
-## Deliverables
-- Python code implementing the inventory utility
-- Clear and organized output for product listings and queries
-- Snapshot export of selected products
+This README can be updated as code, scripts, or solution files are added to the project folder.
